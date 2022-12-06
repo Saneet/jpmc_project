@@ -12,8 +12,9 @@ NOTE: Search results are also paged like above:
 Video: https://github.com/Saneet/jpmc_project/raw/main/Search.mov
 
 # Basic Demo
-NOTE: Can't demo screen rotation due to video recording limitations:
 Video: https://github.com/Saneet/jpmc_project/raw/main/walkthrough.mp4
+
+Note: Can't demo screen rotation due to video recording limitations
 
 # Tech Stack
 1. MVVM
