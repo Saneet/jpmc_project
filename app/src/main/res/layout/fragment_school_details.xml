@@ -26,19 +26,6 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.appcompat.widget.Toolbar>
 
-    <ProgressBar
-        android:id="@+id/progress_bar"
-        style="@style/Widget.Material3.CircularProgressIndicator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="1dp"
-        android:indeterminate="true"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/address"
         android:layout_width="wrap_content"
@@ -76,69 +63,15 @@
         app:layout_constraintTop_toBottomOf="@id/website" />
 
     <TextView
-        android:id="@+id/distribution_section"
-        style="@style/TextAppearance.Material3.TitleLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/class_distribution"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email" />
-
-    <TextView
-        android:id="@+id/male"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/distribution_section" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/male_students"
-        app:layout_constraintBottom_toBottomOf="@id/male"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/male" />
-
-    <TextView
-        android:id="@+id/female"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/male" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/female_students"
-        app:layout_constraintBottom_toBottomOf="@id/female"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/female" />
-
-    <TextView
-        android:id="@+id/total"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/female" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/total_students"
-        app:layout_constraintBottom_toBottomOf="@id/total"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/total" />
-
-    <TextView
         android:id="@+id/score_section"
         style="@style/TextAppearance.Material3.TitleLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sat_scores"
+        android:layout_marginTop="@dimen/margin_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/total" />
+        app:layout_constraintTop_toBottomOf="@id/email" />
 
     <TextView
         android:id="@+id/math"

@@ -69,10 +69,10 @@ public class SchoolDetailsFragment extends Fragment {
     }
 
     private void assignScores(ScoreDetailsModel scores) {
-        getTV(R.id.math).setText(scores.getMath() + "");
-        getTV(R.id.reading).setText(scores.getReading() + "");
-        getTV(R.id.writing).setText(scores.getWriting() + "");
-        getTV(R.id.sat).setText(scores.getTotalSatTakers() + "");
+        getTV(R.id.math).setText(String.format("%d", scores.getMath()));
+        getTV(R.id.reading).setText(String.format("%d", scores.getReading()));
+        getTV(R.id.writing).setText(String.format("%d", scores.getWriting()));
+        getTV(R.id.sat).setText(String.format("%d", scores.getTotalSatTakers()));
     }
 
     private void assignDetails(SchoolDetailsModel details) {
@@ -82,8 +82,6 @@ public class SchoolDetailsFragment extends Fragment {
         getTV(R.id.phone).setText(details.getPhone());
         getTV(R.id.website).setText(details.getWebsite());
         getTV(R.id.email).setText(details.getEmail());
-        getTV(R.id.female).setText(details.getFemaleCount() + "");
-        getTV(R.id.male).setText(details.getMaleCount() + "");
     }
 
     private TextView getTV(@IdRes int resId) {
