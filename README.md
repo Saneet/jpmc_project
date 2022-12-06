@@ -8,8 +8,9 @@
 Video: https://github.com/Saneet/jpmc_project/raw/main/paging.mov
 
 ## 2. Search
-NOTE: Search results are also paged like above:
 Video: https://github.com/Saneet/jpmc_project/raw/main/Search.mov
+
+Note: Search results are also paged like above.
 
 # Basic Demo
 Video: https://github.com/Saneet/jpmc_project/raw/main/walkthrough.mp4
