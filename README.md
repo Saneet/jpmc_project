@@ -4,16 +4,16 @@
 [See full requirements here.](REQUIREMENTS.md)
 
 # Extra Features
-## Paged querying of data
-https://github.com/Saneet/jpmc_project/raw/main/paging.mp4
+## 1. Paged querying of data:
+Video: https://github.com/Saneet/jpmc_project/raw/main/paging.mp4
 
-## Search
-NOTE: Search results are also paged like above
-https://github.com/Saneet/jpmc_project/raw/main/Search.mov
+## 2. Search
+NOTE: Search results are also paged like above:
+Video: https://github.com/Saneet/jpmc_project/raw/main/Search.mov
 
 # Basic Demo
-NOTE: Can't demo screen rotation due to video recording limitations
-https://github.com/Saneet/jpmc_project/raw/main/walkthrough.mp4
+NOTE: Can't demo screen rotation due to video recording limitations:
+Video: https://github.com/Saneet/jpmc_project/raw/main/walkthrough.mp4
 
 # Tech Stack
 1. MVVM
