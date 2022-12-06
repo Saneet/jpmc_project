@@ -20,15 +20,14 @@ class DemoApplication : Application() {
     private fun setupStrictMode() {
         StrictMode.setThreadPolicy(
             StrictMode.ThreadPolicy.Builder()
-                .detectAll()
+                .detectNetwork()
                 .penaltyLog()
                 .build()
         )
         StrictMode.setVmPolicy(
             StrictMode.VmPolicy.Builder()
-                .detectAll()
+                .detectActivityLeaks()
                 .penaltyLog()
-                .penaltyDeath()
                 .build()
         )
         super.onCreate()

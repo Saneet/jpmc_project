@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Saneet Demo</string>
+    <string name="app_name">Saneet JPMC Demo</string>
+    <string name="search_term">Enter your search term</string>
+    <string name="school_list_label">List of Schools:</string>
+    <string name="loading_wait">Loading please wait…</string>
+    <string name="grades_prefix">Grades:&#160;</string>
+    <string name="search_button">Search</string>
+    <string name="clear_button">Clear</string>
+    <string name="sat_scores">SAT Scores</string>
+    <string name="class_distribution">Class Distribution</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="website">Website</string>
+    <string name="school_email">School Email</string>
+    <string name="male_students">Male Students</string>
+    <string name="female_students">Female Students</string>
+    <string name="total_students">Total Students</string>
+    <string name="avg_math_scores">Avg. Math Scores</string>
+    <string name="avg_reading_scores">Avg. Reading Scores</string>
+    <string name="avg_writing_score">Avg. Writing Score</string>
+    <string name="avg_sat_score">Avg. SAT Score</string>
 </resources>

@@ -1,8 +1,8 @@
 package com.saneet.demo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.saneet.demo.feature.FeatureFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.saneet.demo.schoollist.SchoolListFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, FeatureFragment.newInstance())
+                .replace(R.id.container, SchoolListFragment.newInstance())
                 .commitNow()
         }
     }
