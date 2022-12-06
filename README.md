@@ -5,15 +5,15 @@
 
 # Extra Features
 ## Paged querying of data
-https://raw.githubusercontent.com/Saneet/jpmc_project/main/paging.mp4
+https://github.com/Saneet/jpmc_project/raw/main/paging.mp4
 
 ## Search
 NOTE: Search results are also paged like above
-https://raw.githubusercontent.com/Saneet/jpmc_project/main/Search.mp4
+https://github.com/Saneet/jpmc_project/raw/main/Search.mov
 
 # Basic Demo
 NOTE: Can't demo screen rotation due to video recording limitations
-https://raw.githubusercontent.com/Saneet/jpmc_project/main/walkthrough.mp4
+https://github.com/Saneet/jpmc_project/raw/main/walkthrough.mp4
 
 # Tech Stack
 1. MVVM
