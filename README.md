@@ -5,7 +5,7 @@
 
 # Extra Features
 ## 1. Paged querying of data:
-Video: https://github.com/Saneet/jpmc_project/raw/main/paging.mp4
+Video: https://github.com/Saneet/jpmc_project/raw/main/paging.mov
 
 ## 2. Search
 NOTE: Search results are also paged like above:
